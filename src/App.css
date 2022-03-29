@@ -1,0 +1,32 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html,
+body {
+ background-color: #012967;
+}
+
+.App {
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+ padding-top: 15px;
+ font-family: Lato, sans-serif;
+}
+
+div.logo-container {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 20px;
+ width: 100%;
+}
+
+img.click-logo {
+ border: 3px groove #5446a3;
+ height: 300px;
+}
