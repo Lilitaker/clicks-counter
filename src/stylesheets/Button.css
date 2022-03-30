@@ -12,7 +12,7 @@ button {
 }
 
 button:hover {
-  background-color: aquamarine;
+  background-color: #2669a0;
 }
 
 .click-btn {
@@ -20,5 +20,5 @@ button:hover {
 }
 
 .restart-btn {
-  background-color: #9d60d3;
+  background-color: #d36448;
 }

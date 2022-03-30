@@ -1,32 +1,44 @@
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html,
 body {
- background-color: #012967;
+  background-color: #012967;
 }
 
 .App {
- display: flex;
- flex-wrap: wrap;
- align-items: center;
- justify-content: center;
- padding-top: 15px;
- font-family: Lato, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  font-family: Lato, sans-serif;
 }
 
 div.logo-container {
- display: flex;
- align-items: center;
- justify-content: center;
- margin: 20px;
- width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 20px 40px;
 }
 
 img.click-logo {
- border: 3px groove #fff;
- height: 300px;
+  height: 300px;
+  border: 3px groove #fff;
+}
+
+div.main-container {
+  display: flex;
+  min-width: 600px;
+}
+
+div.buttons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-right: 2em;
 }
