@@ -1,4 +1,5 @@
 import React from "react";
+import '../stylesheets/Button.css'
 
 //destructuring -> props
 function Button({ text, isClickBtn, manageClick }) { 
